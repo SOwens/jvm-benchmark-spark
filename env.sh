@@ -1,7 +1,9 @@
 #!/bin/bash
 
+if [ "$JAVA_HOME" == "" ]; then
+	export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+fi
 export BENCH_ROOT=$HOME/spark
-#export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 
 export MAVEN_ROOT=$BENCH_ROOT/apache-maven-3.3.3
 export MAVEN_HOME=$MAVEN_ROOT
