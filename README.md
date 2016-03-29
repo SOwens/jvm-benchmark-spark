@@ -9,9 +9,11 @@ It was inspired by a similar benchmark described by Lokesh Gidra et al in their 
 
 * Java 7+ (e.g. OpenJDK 1.7 or 1.8)
 
+Generally `sudo apt-get install openjdk-7-jdk` should be sufficient on Ubuntu.
+
 ### Setup
 
-1. Update BENCH_ROOT in env.sh
+1. Update BENCH_ROOT and JAVA_HOME in env.sh
 2. Download sources (around 500MiB of data), run ./download.sh
 3. Unpack the sources, run ./unpack.sh
 
