@@ -12,7 +12,7 @@ It was inspired by a similar benchmark described by Lokesh Gidra et al in their 
 ### Setup
 
 1. Update BENCH_ROOT in env.sh
-2. Download sources, run ./download.sh (downloads around 500MiB of data)
+2. Download sources (around 500MiB of data), run ./download.sh
 3. Unpack the sources, run ./unpack.sh
 
 ### Usage
