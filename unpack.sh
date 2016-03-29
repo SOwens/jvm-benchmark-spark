@@ -5,11 +5,11 @@ if [ ! -e scala-2.10.4 ]; then
 fi
 
 if [ ! -e sbt ]; then
-    tar xzvf src/sbt-0.13.9.tgz || exit 1
+    tar xzvf src/sbt-0.13.11.tgz || exit 1
 fi
 
 if [ ! -e apache-maven-3.3.3 ]; then
-    tar xzvf apache-maven-3.3.3-bin.tar.gz || exit 1 
+    tar xzvf src/apache-maven-3.3.3-bin.tar.gz || exit 1 
 fi
 
 if [ ! -e spark-1.4.1-bin-hadoop2.6 ]; then
